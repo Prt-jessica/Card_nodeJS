@@ -1,5 +1,5 @@
 {
-  "name": "card_visit",
+  "name": "@prtj/card",
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
@@ -18,5 +18,10 @@
   "homepage": "https://github.com/Prt-jessica/Card_nodeJS#readme",
   "bin": {
     "jess": "./index.js"
+  },
+  "dependencies": {
+    "boxen": "^4.1.0",
+    "cfonts": "^2.4.5",
+    "gradient-string": "^1.2.0"
   }
 }
